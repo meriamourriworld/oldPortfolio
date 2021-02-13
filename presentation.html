@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+    <title>Portfolio - Mon CV</title>
+</head>
+<body class="cvBody">
+    <header class="cvHeader">
+        <nav class="menu">
+           <a href="index.html"><img class="btnAccueil" src="./images/home.png">Accueil</a>
+           <a href="presentation.html"><img class="btnPresentation" src="./images/profile.png">Profil</a>
+           <a href="realisations.html"><img class="btnRealisations" src="./images/portfolio.png">Portfolio</a>
+           <a href="blog.html"><img class="btnBlog" src="./images/blog.png">Blog</a>
+           <a href="contact.html"><img class="btnContact" src="./images/mail.png">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section  class="container cvMain">
+            <article class="row description">
+                <div class="col-lg-4 imageProfile"><img src="./images/profile.png" alt="Meriam Ourri"></div>
+                <div class="col-lg-8 descriptionText">
+                    <h3>À propos</h3>
+                    <p>Je m'appelle Meriam, je suis lauréate de la formation "Développement Web" du cégep Garneau.
+                        À l'issu de ma formation, je prévois travailler en tant que développeuse Full-Stack.
+                        Mon choix se justifie par ma passion envers le design et je cherche toujours à être créative en ce qui concerne l'interface graphique.
+                        Je suis également une personne qui aime les défis et la résolution des problèmes, c'est pour cette raison que j'adore ce qui touche à l'algorithmique.
+                        Vous pouvez consulltez mon portfolio pour plus de détails sur mes projets...
+                    </p>
+                    <div class="btnVisitez btnHire"><a href="contact.html">Contactez-moi</a></div>
+                </div>
+            </article>
+
+            <article class="row skills">
+                <div class="col-lg-12 flex flex-column">
+                    <h3>Connaissances</h3>
+                    <p>Durant mon parcours d'études, j'ai utilisé ces différents outils pour développer mes projets d'études et 
+                        mes projets personnels
+                    </p>
+                </div>
+                <div class="col-lg-4 offset-2 flex flex-column skillCategorie">
+                    <h4>Front-End</h4>
+                    <div>
+                        <img src="./images/html.png" alt="">
+                        <img src="./images/css.png" alt="">
+                        <img src="./images/js.png" alt=""><br>
+                        <img src="./images/bootstrap.png" alt="">
+                        <img src="./images/jquery.png" alt="">
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 flex flex-column skillCategorie">
+                    <h4>Back-End</h4>
+                    <div>
+                        <img src="./images/node.png" alt="">
+                        <img src="./images/php.png" alt="">
+                        <img src="./images/python.png" alt=""><br>
+                        <img src="./images/java.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 offset-2 flex flex-column skillCategorie">
+                    <h4>Design</h4>
+                    <div>
+                        <img src="./images/Photoshop.png" alt="">
+                        <img src="./images/illustrator.png" alt="">
+                        <img src="./images/figma.png" alt="">
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 flex flex-column skillCategorie">
+                    <h4>Outils</h4>
+                    <div>
+                        <img src="./images/wordpress.png" alt="">
+                        <img src="./images/windows.png" alt="">
+                        <img src="./images/office.png" alt="">
+                    </div>
+                </div>
+            </article>
+
+            <article class="row cvTelecharger">
+                <div class="col-lg-12 flex flex-column">
+                    <h4>Plus de détails</h4>
+                    <p>Pour en savoir plus sur mon parcours, veuillez télécharger mon CV</p>
+                    <div class="btnVisitez btnTelecharger"><a href="cv.pdf">Télécharger</a></div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="cvFooter flex justify-content-between">
+        <img src="./images/logo.png">
+        <p class="align-self-end">&copy;Tous les droits réservés - Meriam Ourri 2021</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
