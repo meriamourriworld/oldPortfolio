@@ -1,0 +1,365 @@
+/*****************MENU*******************/
+.menu{
+    width: 40%;
+    min-height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: linear-gradient(to bottom , #0a0a0a4f , rgba(255, 255, 255, 0.425));
+    border-radius: 0  0 5px 5px;
+    font-size: 0.7rem;
+}
+.menu a{
+    text-decoration: none;
+    text-align: center;
+    color: #0a0a0a98;
+}
+.menu a img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5%;
+    opacity: 0.7;
+}
+.menu a img:hover,.menu a:hover{
+    color: #0a0a0a;
+    opacity: 1;
+}
+/***********************************INDEX*****************************/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgba(255, 255, 255, 0.514);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.accueilMain{
+    min-height: 100vh;
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    background: linear-gradient(-60deg, #2d0787, #350a8c ,#28b9b4,#2d0787, #2d0787);
+    background-size: 600% 600%;
+    animation: colorAnimation 10s ease infinite;
+}
+.accueilMain article{
+    font-size: 1.5rem;
+}
+.accueilMain article h1{
+    padding-bottom: 30px;
+}
+
+.btnVisitez{
+    margin-top: 40px;
+    padding: 10px 30px;
+    font-size: 0.9rem;
+    max-width: max-content;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-family: 'Cinzel Decorative', cursive;
+    cursor: pointer;
+}
+.btnVisitez:hover{
+    background-color: rgba(255, 255, 255, 0.205);
+}
+.btnHire{
+    background-color: #2d078746;
+}
+.btnVisitez a {
+    color: white;
+}
+
+.menu i{
+    font-size: 3rem;
+    margin-left: 10px;
+}
+@keyframes colorAnimation{
+    0% {background-position:0% 50%;}
+    50% {background-position:100% 50%;}
+    100% {background-position:0% 50%;}
+}
+
+/***********************************************PRESENTATION**********************************/
+.cvBody{
+    height: max-content;
+    background-color: #0a0a0a;
+    font-family: 'Open Sans', sans-serif;
+}
+.cvMain{
+    background-color: rgba(255, 255, 255, 0.384);
+    border-radius: 5px 5px 0 0;
+    margin-top: 50px;
+}
+.description{
+    font-size: 0.7;
+    color: white;
+    padding: 15px 15px 60px 15px;
+}
+.imageProfile{
+    display: flex;
+    justify-content: center;
+}
+.skills h3,.skills h4{
+    font-family: 'Cinzel Decorative', cursive;
+    margin-bottom: 30px;
+}
+.descriptionText{
+    padding-left: 30px;
+}
+.skills{
+    padding-top: 50px;
+    background-color: #2d0787b0;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.skills img{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.skillCategorie{
+    min-height: 300px;
+    margin-top: 20px;
+    background-color: #7754c975;
+}
+.skillCategorie:nth-of-type(even){
+    min-height: 300px;
+    background-color: #fefffe75;
+}
+
+.cvTelecharger h4{
+    font-family: 'Cinzel Decorative', cursive;
+    padding-top: 20px;
+}
+.btnTelecharger{
+    margin: 20px;
+}
+.cvFooter{
+    width: 40%;
+    min-height: 60px;
+    margin: 20px auto 0 auto;
+    background: linear-gradient(to left , #28b9b427 , #2d078777);
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+/***********************************************CONTACT**********************************/
+.menuContact{
+    margin:0 auto auto 50px;
+}
+.contactBody{
+    background: linear-gradient(to right , #2d0787 50%, rgb(248, 245, 245) 50%);
+}
+.contactMain{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.contactTextSide{
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+.contactTextSide h2{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3;
+}
+.contactTextSide p{
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+}
+.formContact{
+    width: 50%;
+}
+.formContact form{
+    color: #0a0a0a;
+    font-size: 0.8rem;
+}
+.formContact label , input , textarea,select{
+    display: block;
+    width: 70%;
+    border-radius: 8px;
+    margin: 10px auto;
+}
+.formContact input , textarea,select,option{
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(255, 255, 255, 0.603);
+    border-color: #2d0787;
+}
+.formContact input[type="submit"]{
+    background-color: #2d0787;
+    font-size: large;
+    font-weight: 500;
+    color: white;
+}
+.formContact input[type="submit"]:hover{
+    cursor: pointer;
+}
+/***********************************************REALISATIONS**********************************/
+.sectionCategories{
+    width: 50%;
+}
+.section{
+    width: 80%;
+    min-height: 170px;
+    margin: 0 auto 20px auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 5px #0a0a0a69;
+    color: #0a0a0a00;
+    cursor: pointer;
+}
+.section a{
+    text-align: center;
+    color: #0a0a0a7e;
+}
+.section a:hover{
+    color: white;
+    font-size: 1.9rem;
+}
+.sectionDesign{
+    background: url("./images/sectionDesign.jpg") no-repeat 100% 100% ;
+}
+
+.sectionDesign:hover{
+    background: linear-gradient(#2d0787, rgba(28, 28, 28, 0.7)),url("./images/sectionDesign.jpg")  100%/100% no-repeat;
+}
+.sectionIntegration{
+    background: url("./images/sectionIntegration1.jpg") no-repeat top ;
+}
+.sectionIntegration:hover{
+    background: linear-gradient(#0fc15f, rgba(28, 28, 28, 0.7)),url("./images/sectionIntegration.jpg")  100%/100% no-repeat;
+}
+/***********************************************DESIGN**********************************/
+.designBody{
+    background:url("./images/myDesign.png") no-repeat bottom right,linear-gradient(to right , #2d0787, #120336  );
+    height: 100vh;
+    font-family: 'Cinzel Decorative', cursive;
+    color: white;
+}
+.sectionProjets{
+    margin-top: 50px;
+}
+
+.descriptionDesign{
+    padding-left: 10%;
+}
+.design{
+    text-align: center;
+    background-color: rgba(14, 2, 2, 0.349);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 0.8rem;
+    margin:0 0 30px 50px;
+    box-shadow: 5px 5px 10px 5px #0f0e0e69;
+    border-radius: 10px;
+}
+.design img{
+    width: 100%;
+    height: 120px;
+    margin: 0px 0 20px 0;
+}
+/***********************************************BLOG**********************************/
+.cvBlog{
+    background-color: #0a0a0a;
+}
+.wrapper{
+    background-image: url("./images/blogFond.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+}
+.blogSection1{
+    background-color: #2d0787da;
+    min-height: 300px;
+    margin-top: 60px;
+    border-radius: 15px 15px 0 15px;
+    color: white;
+}
+.articleImg{
+    border-radius: 15px 0 0 0;
+    padding: 0;
+}
+.articleImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 0 0 0;
+    opacity: 0.9;
+}
+.articleDescription{
+    padding-left: 30px;
+}
+.articleDescription{
+   padding-bottom: 30px;
+   padding-top: 30px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.articleDescription p{
+    line-height: 1.9rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.date{
+    font-size: 0.8rem;
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: left;
+    font-weight: 600;
+}
+
+.articleSection2 {
+    margin-top: 50px;
+    height: 500px;
+    background-color: #2d0787da;
+    color: white;
+    margin-right: 20px;
+    padding: 0;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    box-shadow: 5px 5px 8px #111111;
+    width: 30%;
+}
+.articleSection2 img{
+    width: 100%;
+    height: 50%;
+    border-radius: 15px 15px 0 0;
+}
+.articleSection2 h4{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Cinzel Decorative', cursive;
+     padding: 10px 5px 10px 5px;
+ }
+ .articleSection2 p{
+     line-height: 0.9rem;
+     padding: 0 15px 10px 15px;
+     font-family: 'Open Sans', sans-serif;
+ }
+
+ .articleDescriptionExemple img{
+    margin: 10px auto;
+    width: 60%;
+    height: 300px;
+ }
+ .articleDescriptionExemple{
+    text-align: center;
+ }
+ .blogSectionExemple{
+     background-color: #28b9b469;
+ }
