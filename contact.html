@@ -24,9 +24,9 @@
         <section class="contactTextSide">
             <h2>Réalisons vos projets ensemble</h2>
             <p>Contactez-moi et recevez un rendez-vous et une évaluation préliminaire le plus rapidement possible</p>
-        </section>
+        </section> 
         <section class="formContact">
-            <form action="index.html" class="">
+            <form  action="contact.html">
                 <label for="nom">Nom</label>
                     <input id="nom" type="text" name="nom">
                 <label for="prenom">Prénom</label>
@@ -45,13 +45,9 @@
                     </select>
                 <label for="champ">Champ de la demande</label>
                     <textarea name="champ" id="champ" cols="30" rows="10"></textarea>
-                <div class="form-group">
-                    <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-                    <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
-                    <div class="help-block with-errors"></div>
-                </div>
-                <label for="envoyer"></label>
-                    <input id="Soumettre" type="submit">
+                    <div class="form-group g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S"></div>
+                <label for="soumettre"></label>
+                    <input id="Soumettre" type="submit" name="soumettre">
                 
 
             </form>
