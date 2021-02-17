@@ -148,15 +148,6 @@ a:hover{
 .btnTelecharger{
     margin: 20px;
 }
-.cvFooter{
-    width: 40%;
-    min-height: 60px;
-    margin: 20px auto 0 auto;
-    background: linear-gradient(to left , #28b9b427 , #2d078777);
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.678);
-}
-
 /***********************************************CONTACT**********************************/
 .menuContact{
     margin:0 auto auto 50px;
