@@ -186,11 +186,12 @@ a:hover{
 .formContact{
     width: 50%;
 }
+
 .formContact form{
     color: #0a0a0a;
     font-size: 0.8rem;
 }
-.formContact label , input , textarea,select{
+.formContact label , input , textarea,select,.form-group{
     display: block;
     width: 70%;
     border-radius: 8px;

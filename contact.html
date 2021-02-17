@@ -45,11 +45,19 @@
                     </select>
                 <label for="champ">Champ de la demande</label>
                     <textarea name="champ" id="champ" cols="30" rows="10"></textarea>
+                <div class="form-group">
+                    <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                    <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
+                    <div class="help-block with-errors"></div>
+                </div>
                 <label for="envoyer"></label>
                     <input id="Soumettre" type="submit">
+                
+
             </form>
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </body>
 </html>
