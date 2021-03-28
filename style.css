@@ -25,6 +25,21 @@
     color: #0a0a0a;
     opacity: 1;
 }
+.btnMenu{
+    transition: 0.3s transform;
+}
+.btnMenu:hover{
+    transform: scale(1.2);
+}
+.box {
+    width: 300px;
+    height: 200px;
+    background: orange;
+    border-radius: 2px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+  }
 /***********************************INDEX*****************************/
 *{
     margin: 0;
@@ -90,7 +105,116 @@ a:hover{
     50% {background-position:100% 50%;}
     100% {background-position:0% 50%;}
 }
+/***********AnimatedObject******************/
+.animatedObject{
+    position: absolute;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation:  tourEcran 5s;
+    animation-iteration-count: 3;
+    
+}
+@keyframes tourEcran{
+    0%{
+        top: 10px;
+        left: 10px;
+        background-color: crimson;
+    }
+    25%{
+        top: 80%;
+        left: 10px;
+        background-color: #28b9b4;
+    }
+    50%{
+        top: 80%;
+        left: 90%;
+        background-color: #5b28b9;
+    }
+    75%{
+        top: 0;
+        left: 90%;
+        background-color: #bb0c63;
+    }
+    100%{
+        top: 10px;
+        left: 10px;
+    }
+}
+/*******************SVG IMAGE*****************/
+.svgImg{
+    width: 400px;
+    height: 400px;
+}
+#eyes .cls-6{
+    animation:1s eyeRotation alternate infinite;
+}
+.cls-5:hover{
+    fill: rgb(196, 20, 93);
+}
 
+.cls-1,.cls-2,.cls-3,.cls-4,.cls-7{
+    fill:#fff;}
+.cls-1{stroke:#d875af;}
+.cls-1,.cls-2{stroke-width:2px;}
+.cls-2,.cls-4{stroke:#231f20;}
+.cls-3{stroke:#000;}
+.cls-3,.cls-4{stroke-width:3px;}
+.cls-5{
+    fill:#39c6f4;
+    transition: 0.8s fill linear;
+}
+.cls-6{fill:#231f20;}
+
+@keyframes eyeRotation{
+    from{
+        transform: translateX(5px);
+    }
+    to{
+        transform: translateX(-5px);
+    }
+}
+/*******************************INFOLETTRE*********************************/
+.infolettre{
+    position: absolute;
+    top: 100px;
+    left: 25%;
+    width: 50%;
+    height: 350px;
+    color: white;
+    border: 1px solid rgba(231, 217, 231, 0.644);
+    background-color: #2d0787;
+    transform: scale(0.7);
+    transition: 1s transform ease-in-out;
+}
+
+.infolettre input{
+    border: none;
+    padding: 20px;
+}
+.infolettre input[type="submit"]{
+    font-size: 1.8rem;
+    background-color: rgba(187, 21, 63, 0.459);
+    color: white;
+    font-weight: 500;
+    width: 50%;
+    padding: 10px;
+}
+
+.btnInfolettre{
+    border-color: #39c6f4;
+    color: #39c6f4;
+}
+.displayNone{
+    display: none;
+}
+.fermer{
+    margin-left: 94%;
+    font-weight: 800;
+    font-size: 2rem;
+    cursor: pointer;
+}
 /***********************************************PRESENTATION**********************************/
 .cvBody{
     height: max-content;
